@@ -22,5 +22,15 @@
                 <value id="dylanops_cloudfront" type="host">*.cloudfront.net</value>
             </values>
         </policy>
+        <policy id="font-src">
+            <values>
+                <value id="dylanops_cloudfront" type="host">*.cloudfront.net</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="dylanops_cloudfront" type="host">*.cloudfront.net</value>
+            </values>
+        </policy>
     </policies>
 </csp_whitelist>
