@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Webapi\Controller\Rest">
+        <plugin name="dylanops_preflight_rest"
+                type="DylanOps\CORS\Plugin\Magento\Webapi\Controller\Rest" />
+    </type>
+    <type name="Magento\Framework\Webapi\Rest\Response">
+        <plugin name="dylanops_rest_response"
+                type="DylanOps\CORS\Plugin\Magento\Framework\Webapi\Rest\Response"/>
+    </type>
+</config>
