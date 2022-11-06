@@ -4,22 +4,22 @@
     <policies>
         <policy id="script-src">
             <values>
-                <value id="dylan_ops_script_src_cloud_front" type="host">*.cloudfront.net</value>
+                <value id="dylan_ops_script_src_cloud_front" type="host">d1tkmlqh44vi0p.cloudfront.net</value>
             </values>
         </policy>
         <policy id="connect-src">
             <values>
-                <value id="dylan_ops_connect_src_cloud_front" type="host">*.cloudfront.net</value>
+                <value id="dylan_ops_connect_src_cloud_front" type="host">d1tkmlqh44vi0p.cloudfront.net</value>
             </values>
         </policy>
         <policy id="frame-src">
             <values>
-                <value id="dylan_ops_frame_src_cloud_front" type="host">*.cloudfront.net</value>
+                <value id="dylan_ops_frame_src_cloud_front" type="host">d1tkmlqh44vi0p.cloudfront.net</value>
             </values>
         </policy>
         <policy id="img-src">
             <values>
-                <value id="dylan_ops_img_src_cloud_front" type="host">*.cloudfront.net</value>
+                <value id="dylan_ops_img_src_cloud_front" type="host">d1tkmlqh44vi0p.cloudfront.net</value>
             </values>
         </policy>
     </policies>
