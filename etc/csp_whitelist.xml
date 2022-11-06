@@ -22,5 +22,10 @@
                 <value id="dylanops_form_action_cloud_front" type="host">d1tkmlqh44vi0p.cloudfront.net</value>
             </values>
         </policy>
+        <policy id="img-src">
+            <values>
+                <value id="dylanops_img_src_cloud_front" type="host">d1tkmlqh44vi0p.cloudfront.net</value>
+            </values>
+        </policy>
     </policies>
 </csp_whitelist>
